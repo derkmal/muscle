@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 1%;
     border: 1px solid black;
     width: 1280px;
