@@ -31,7 +31,7 @@ header {
 
 .copy {
     position: absolute;
-    height: 100%;
+    height: calc(100% - 30px);
     width: 48%;
     background-color: cornflowerblue;
     left: 20px;
@@ -39,7 +39,7 @@ header {
 
 .myForm {
     position: absolute;
-    height: 100%;
+    height: calc(100% - 30px);
     right: 20px;
     width: 48%;
     background-color: green;
