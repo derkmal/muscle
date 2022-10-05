@@ -8,6 +8,7 @@
 html, body {
     height: 100%;
     background-color: lightgrey;
+    position: relative;
 }
 
 .clear {
@@ -19,16 +20,29 @@ header {
     background-color: blue;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    /* margin-top: 20px; */
-    padding: 1%;
+/* .container {
+    position: relative;
+    margin-top: 20px;
+    padding: 0 1%;
     border: 1px solid black;
-    width: 1280px;
     height: 570px;
     background-color: lightgrey;
+} */
+
+.copy {
+    position: absolute;
+    height: 100%;
+    width: 48%;
+    background-color: cornflowerblue;
+    left: 20px;
+}
+
+.myForm {
+    position: absolute;
+    height: 100%;
+    right: 20px;
+    width: 48%;
+    background-color: green;
 }
 
 input {
@@ -46,20 +60,5 @@ input:focus {
 
 input[type=submit] {
     width: 100%;
+    cursor: pointer;
 }
-
-.copy {
-    width: 50%;
-    margin-right: 1%;
-    border: 1px solid brown;
-    background-color: cornflowerblue;
-}
-
-myForm {
-    width: 50%;
-    margin-left: 1%;
-    /* border-color: 1px solid green; */
-    background-color: green;
-    /* border-radius: 5px; */
-}
-/* updated */
