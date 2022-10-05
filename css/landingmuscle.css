@@ -20,29 +20,29 @@ header {
     background-color: blue;
 }
 
-/* .container {
-    position: relative;
-    margin-top: 20px;
+.container {
+    width: 100%;
+    max-width: 1400px;
     padding: 0 1%;
     border: 1px solid black;
-    height: 570px;
+    height: calc(100% - 30px);
     background-color: lightgrey;
-} */
+}
 
 .copy {
-    position: absolute;
-    height: calc(100% - 30px);
-    width: 48%;
+    height: 100%;
+    width: 49.2%;
     background-color: cornflowerblue;
-    left: 20px;
+    /* left: 20px; */
+    float: left;
 }
 
 .myForm {
-    position: absolute;
-    height: calc(100% - 30px);
-    right: 20px;
-    width: 48%;
+    height: 100%;
+    /* right: 20px; */
+    width: 49.2%;
     background-color: green;
+    float: right;
 }
 
 input {
