@@ -17,7 +17,7 @@ html, body {
 
 header {
     height: 30px;
-    background-color: blue;
+    background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
 }
 
 .container {
@@ -27,23 +27,23 @@ header {
     margin-top: 20px;
     padding: 0 3%;
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: calc(100% - 50px);
     background-color: lightgrey;
 }
 
 .copy {
     height: 100%;
-    width: 50%;
+    width: 80%;
     margin-right: 10px;
-    background-color: cornflowerblue;
+    background-color: white;
 }
 
 .myForm {
     height: 100%;
     width: 50%;
     margin-left: 10px;
-    background-color: green;
+    background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
     text-align: center;
 }
 
@@ -58,6 +58,7 @@ input {
     border: 1px solid #999;
     padding: 8px;
     border-radius: 3px;
+    background-color: white;
 }
 
 input:focus {
