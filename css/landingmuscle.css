@@ -37,12 +37,10 @@ header {
     width: 50%;
     margin-right: 10px;
     background-color: cornflowerblue;
-    /* left: 20px; */
 }
 
 .myForm {
     height: 100%;
-    /* right: 20px; */
     width: 50%;
     margin-left: 10px;
     background-color: green;
