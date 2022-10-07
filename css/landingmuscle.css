@@ -37,6 +37,10 @@ header {
     width: 80%;
     margin-right: 10px;
     background-color: white;
+    background: url(../images/Muscle-1.png);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
 }
 
 .myForm {
