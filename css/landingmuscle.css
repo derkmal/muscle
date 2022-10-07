@@ -36,12 +36,14 @@ header {
     height: 100%;
     width: 80%;
     margin-right: 10px;
+    /* padding: 20px; */
     background-color: white;
     /* background: url(../images/Muscle-1.png); */
 }
 
 .copy img {
-    width: 50%;
+    width: 52.94%;
+    top: 20px;
     /* background-size: cover; */
     /* background-position: top right; */
     /* background-repeat: no-repeat; */
