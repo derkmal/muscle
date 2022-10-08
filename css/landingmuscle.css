@@ -39,11 +39,21 @@ header {
     /* padding: 20px; */
     background-color: white;
     /* background-image: url(../images/Muscle-1.png); */
-
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
 }
 
-.copy > img {
-    width: 54%;
+.copy, h1 h2 {
+    /* display: block; */
+    /* margin-bottom: 50px; */
+    float: left;
+    /* width: 20px; */
+    color: green;
+}
+
+.copy img {
+    width: 50%;
     height: 100%;
     float: right;
     opacity: .6;
