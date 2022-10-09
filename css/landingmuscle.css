@@ -35,26 +35,31 @@ header {
 .copy {
     height: 100%;
     width: 80%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     /* padding: 20px; */
     background-color: white;
     /* background-image: url(../images/Muscle-1.png); */
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 50%;
+    /* background-repeat: no-repeat; */
+    /* background-position: top right; */
+    /* background-size: 50%;     */
 }
 
-.copy, h1 h2 {
-    /* display: block; */
-    /* margin-bottom: 50px; */
+
+.copy .text {
     float: left;
-    /* width: 20px; */
     color: green;
+    width: 45%;
+    text-align: center;
+}
+
+.copy h2 {
+    font-size: 14px;
+    color: #999;
 }
 
 .copy img {
-    width: 50%;
-    height: 100%;
+    width: 49.62%;
+    /* height: 100%; */
     float: right;
     opacity: .6;
 }
