@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     background-color: lightgrey;
-    position: relative;
+    /* position: relative; */
 }
 
 .clear {
