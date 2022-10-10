@@ -101,13 +101,13 @@ input[type=submit] {
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .container {
         display: block;
         padding: 0 auto;
     }
-
     .copy {
+        display: block;
         width: 100%;
     }
     .myForm {
