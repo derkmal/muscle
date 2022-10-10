@@ -50,7 +50,11 @@ header {
     /* text-align: center; */
 }
 
-.copy p {
+.text h1 {
+    color: blue;
+}
+
+.text p {
     font-size: 14px;
     color: #999;
     width: 70%;
