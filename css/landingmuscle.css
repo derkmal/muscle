@@ -70,6 +70,11 @@ header {
     margin-left: 10px;
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
     text-align: center;
+    padding: 10px;
+}
+
+.myForm h1 {
+    color: white;
 }
 
 form {
@@ -77,8 +82,8 @@ form {
 }
 
 input {
-    display: block;
-    width: 440px;
+    /* display: block; */
+    width: 100%;
     margin-bottom: 15px;
     border: 1px solid #999;
     padding: 8px; 
@@ -92,6 +97,25 @@ input:focus {
 }
 
 input[type=submit] {
-    width: 440px;
+    width: 100%;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        padding: 0 auto;
+    }
+
+    .copy {
+        width: 100%;
+    }
+    .myForm {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+}
+
+
+
