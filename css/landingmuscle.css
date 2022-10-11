@@ -26,7 +26,7 @@ header {
     max-width: 1400px;
     margin-top: 20px;
     padding: 0 3%;
-    display: flex;
+    /* display: flex; */
     height: calc(100% - 50px);
     background-color: lightgrey;
 }
@@ -34,30 +34,25 @@ header {
 .copy {
     position: relative;
     height: 100%;
-    width: 80%;
+    width: 70%;
+    float: left;
     background-color: white;
-    /* background-image: url(../images/Muscle-1.png); */
-    /* background-repeat: no-repeat; */
-    /* background-position: top right; */
-    /* background-size: 50%;     */
 }
-
 
 .copy .text {
     position: absolute;
     left: 10px;
     top: 10px;
-    /* text-align: center; */
 }
 
 .text h1 {
-    color: blue;
+    color: black;
 }
 
 .text p {
     font-size: 14px;
     color: #999;
-    width: 70%;
+    width: 75%;
     margin-top: 8px;
 }
 
@@ -65,20 +60,22 @@ header {
     position: absolute;
     height: 100%;
     right: 10px;
-    opacity: .4;
+    opacity: 0.4;
 }
 
 .myForm {
     height: 100%;
-    width: 50%;
-    margin-left: 10px;
+    width: 30%;
+    float: left;
+    /* margin-left: 10px; */
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
-    text-align: center;
     padding: 10px;
 }
 
 .myForm h1 {
     color: white;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 form {
@@ -86,8 +83,8 @@ form {
 }
 
 input {
-    /* display: block; */
-    width: 100%;
+    display: block;
+    /* width: 100%; */
     margin-bottom: 15px;
     border: 1px solid #999;
     padding: 8px; 
@@ -96,13 +93,19 @@ input {
 }
 
 input:focus {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     outline: none;
+}
+
+input[type=text] {
+    width: 100%; /* um die Breite des Elements zu ändern, muss ich den Prozentsatz festlegen */
+    border: 0;
 }
 
 input[type=submit] {
     width: 100%;
     cursor: pointer;
+    border: 0;
 }
 
 @media only screen and (max-width: 768px) {
