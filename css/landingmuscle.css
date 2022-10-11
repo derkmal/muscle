@@ -52,7 +52,7 @@ header {
 .text p {
     font-size: 14px;
     color: #999;
-    width: 75%;
+    width: 85%;
     margin-top: 8px;
 }
 
@@ -78,9 +78,9 @@ header {
     margin-bottom: 5px;
 }
 
-form {
-    display: inline-block;
-}
+/* form {
+    display: inline-block;  Wenn Sie 'inline-block' drin das parent Element festlegen, können Sie nicht die Größe des 'Input' ändern.
+} */
 
 input {
     display: block;
@@ -93,7 +93,7 @@ input {
 }
 
 input:focus {
-    /* border: 1px solid #ccc; */
+    border: 1px solid #ccc;
     outline: none;
 }
 
