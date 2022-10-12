@@ -91,16 +91,35 @@ header {
     margin-top: 25px;
 }
 
+.myForm .line2 {
+    border: 1px solid white;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
 form {
     /* position: relative; */
     /* display: inline-block;  Wenn Sie 'inline-block' drin der Elternteil Element festlegen, können Sie nicht die Größe des 'Input' ändern. */
-    margin-top: 200px;
+    margin-top: 25px;
+}
+
+dialog {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 10px 5px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: rgb(61, 59, 59);
+    text-align: center;
 }
 
 input {
     /* position: relative; */
     display: block;
-    bottom: 10px;
+    /* bottom: 10px; */
     /* width: 100%; */
     margin-bottom: 15px;
     border: 1px solid #999;
