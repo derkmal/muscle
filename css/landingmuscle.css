@@ -45,11 +45,11 @@ header {
     top: 10px;
 }
 
-.text h1 {
+.copy .text h1 {
     color: black;
 }
 
-.text p {
+.copy .text p {
     font-size: 14px;
     color: #999;
     width: 85%;
@@ -69,21 +69,38 @@ header {
     float: left;
     /* margin-left: 10px; */
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 .myForm h1 {
     color: white;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
-/* form {
-    display: inline-block;  Wenn Sie 'inline-block' drin das parent Element festlegen, können Sie nicht die Größe des 'Input' ändern.
-} */
+.myForm p {
+    color: rgb(216, 208, 208);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.myForm .line {
+    border: 1px solid white;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+form {
+    /* position: relative; */
+    /* display: inline-block;  Wenn Sie 'inline-block' drin der Elternteil Element festlegen, können Sie nicht die Größe des 'Input' ändern. */
+    margin-top: 200px;
+}
 
 input {
+    /* position: relative; */
     display: block;
+    bottom: 10px;
     /* width: 100%; */
     margin-bottom: 15px;
     border: 1px solid #999;
