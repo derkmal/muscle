@@ -69,19 +69,19 @@ header {
     float: left;
     /* margin-left: 10px; */
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
-    padding: 20px 10px;
+    padding: 25px 10px;
 }
 
 .myForm h1 {
     color: white;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .myForm p {
     color: rgb(216, 208, 208);
     text-align: center;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 
 .myForm .line {
@@ -98,22 +98,23 @@ header {
     margin-top: 25px;
 }
 
-form {
-    /* position: relative; */
-    /* display: inline-block;  Wenn Sie 'inline-block' drin der Elternteil Element festlegen, können Sie nicht die Größe des 'Input' ändern. */
-    margin-top: 25px;
-}
 
 dialog {
     position: relative;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 35px;
     padding: 10px 5px;
     background-color: white;
     border: none;
     border-radius: 3px;
     color: rgb(61, 59, 59);
     text-align: center;
+}
+
+form {
+    /* position: relative; */
+    /* display: inline-block;  Wenn Sie 'inline-block' drin der Elternteil Element festlegen, können Sie nicht die Größe des 'Input' ändern. */
+    margin-top: 35px;
 }
 
 input {
