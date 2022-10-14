@@ -41,19 +41,36 @@ header {
 
 .copy .text {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    width: 63%;
+    left: 20px;
+    top: 20px;
 }
 
 .copy .text h1 {
     color: black;
+    font-size: 24px;
+    font-family: "Roboto Slab";
 }
 
-.copy .text p {
-    font-size: 14px;
+.copy .text h3 {
+    font-size: 16px;
     color: #999;
     width: 85%;
     margin-top: 8px;
+    font-family: "Fira Sans";
+}
+
+.copy .text ul {
+    font-size: 14px;
+    color: #999;
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.copy .text ul li {
+    margin-bottom: 10px;
+    font-family: "Fira Sans";
 }
 
 .copy img {
