@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Fjalla One', sans-serif;
+    /* font-family: 'Fjalla One', sans-serif; */
 }
 
 html, body {
     height: 100%;
     background-color: lightgrey;
     /* position: relative; */
+    font-family: 'Fjalla One', sans-serif;    
 }
 
 .clear {
@@ -50,11 +51,11 @@ header {
 .copy .text h1 {
     color: black;
     font-size: 32px;
-    font-family: "Roboto Slab";
+    font-family: 'Roboto Slab';
 }
 
 .copy .text h3 {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: normal;
     color: #999;
     width: 85%;
@@ -91,10 +92,12 @@ header {
     float: left;
     /* margin-left: 10px; */
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
-    padding: 25px 10px;
+    padding: 20px 10px;
 }
 
 .myForm h1 {
+    font-family: 'Roboto Slab';
+    font-size: 32px;
     color: white;
     text-align: center;
     margin-bottom: 15px;
@@ -104,6 +107,7 @@ header {
     color: rgb(216, 208, 208);
     text-align: center;
     /* margin-top: 15px; */
+    font-family: "Fira Sans";
 }
 
 /* .myForm .line {
@@ -121,6 +125,7 @@ header {
 } */
 
 dialog {
+    font-family: "Fira Sans";
     position: relative;
     margin: 0 auto;
     margin-top: 24px;
@@ -147,7 +152,7 @@ input {
     display: block;
     /* bottom: 10px; */
     /* width: 100%; */
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     border: 1px solid #999;
     padding: 8px; 
     border-radius: 3px;
@@ -166,8 +171,12 @@ input[type=text] {
 
 input[type=submit] {
     width: 100%;
+    /* padding: 16px; */
     cursor: pointer;
     border: 0;
+    font-size: 24px;
+    color: rgb(221, 217, 217);
+    background-color: green;
 }
 
 @media only screen and (max-width: 768px) {
