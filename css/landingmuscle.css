@@ -35,6 +35,7 @@ header {
     position: relative;
     height: 100%;
     width: 70%;
+    padding: 20px;
     float: left;
     background-color: white;
 }
@@ -42,18 +43,19 @@ header {
 .copy .text {
     position: absolute;
     width: 63%;
-    left: 20px;
-    top: 20px;
+    /* left: 20px;
+    top: 20px; */
 }
 
 .copy .text h1 {
     color: black;
-    font-size: 24px;
+    font-size: 32px;
     font-family: "Roboto Slab";
 }
 
 .copy .text h3 {
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: normal;
     color: #999;
     width: 85%;
     margin-top: 8px;
@@ -61,7 +63,7 @@ header {
 }
 
 .copy .text ul {
-    font-size: 14px;
+    font-size: 16px;
     color: #999;
     width: 85%;
     margin-left: 20px;
@@ -75,8 +77,9 @@ header {
 
 .copy img {
     position: absolute;
-    height: 100%;
-    right: 10px;
+    width: 35%;
+    /* height: 100%; */
+    right: 20px;
     opacity: 0.4;
 }
 
