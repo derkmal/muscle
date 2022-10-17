@@ -58,7 +58,7 @@ header {
     font-weight: normal;
     color: #999;
     width: 85%;
-    margin-top: 8px;
+    margin-top: 16px;
     font-family: "Fira Sans";
 }
 
@@ -66,19 +66,21 @@ header {
     font-size: 16px;
     color: #999;
     width: 85%;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-top: 40px;
 }
 
 .copy .text ul li {
     margin-bottom: 10px;
     font-family: "Fira Sans";
+    list-style: none;
 }
 
 .copy img {
     position: absolute;
-    width: 35%;
-    /* height: 100%; */
+    width: 36%;
+    margin-top: 35px;
+    height: auto;
     right: 20px;
     opacity: 0.4;
 }
@@ -104,25 +106,24 @@ header {
     /* margin-top: 15px; */
 }
 
-.myForm .line {
+/* .myForm .line {
     border: 1px solid white;
     width: 85%;
     margin: 0 auto;
     margin-top: 25px;
-}
+} */
 
-.myForm .line2 {
+/* .myForm .line2 {
     border: 1px solid white;
     width: 55%;
     margin: 0 auto;
     margin-top: 25px;
-}
-
+} */
 
 dialog {
     position: relative;
     margin: 0 auto;
-    margin-top: 35px;
+    margin-top: 24px;
     padding: 10px 5px;
     background-color: white;
     border: none;
@@ -131,10 +132,14 @@ dialog {
     text-align: center;
 }
 
+.myForm .hurry {
+    margin-top: 24px;
+}
+
 form {
     /* position: relative; */
     /* display: inline-block;  Wenn Sie 'inline-block' drin der Elternteil Element festlegen, können Sie nicht die Größe des 'Input' ändern. */
-    margin-top: 35px;
+    margin-top: 24px;
 }
 
 input {
