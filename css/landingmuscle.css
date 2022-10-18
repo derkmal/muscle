@@ -9,7 +9,8 @@ html, body {
     height: 100%;
     background-color: lightgrey;
     /* position: relative; */
-    font-family: 'Fjalla One', sans-serif;    
+    font-family: 'Fjalla One', sans-serif;  
+    flex-direction: column;
 }
 
 .clear {
@@ -21,31 +22,35 @@ header {
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
 }
 
-.container {
+/* .container {
     margin: 0 auto;
     width: 100%;
     max-width: 1400px;
     margin-top: 20px;
     padding: 0 3%;
-    /* display: flex; */
     height: calc(100% - 50px);
     background-color: lightgrey;
-}
+    border: 1px solid black;
+} */
 
 .copy {
     position: relative;
-    height: 100%;
-    width: 70%;
+    margin-top: 20px;
+    margin-left: 1%;
+    background-image: url(../images/Muscle-1.png);
+    background-size: 41%;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px);
+    width: 69%;
+    min-height: 600px; /* https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c */
     padding: 20px;
     float: left;
-    background-color: white;
+    background-color: rgb(255,255,255);
 }
 
 .copy .text {
-    position: absolute;
+    position: relative;
     width: 63%;
-    /* left: 20px;
-    top: 20px; */
 }
 
 .copy .text h1 {
@@ -67,7 +72,6 @@ header {
     font-size: 16px;
     color: #999;
     width: 85%;
-    /* margin-left: 20px; */
     margin-top: 40px;
 }
 
@@ -77,22 +81,14 @@ header {
     list-style: none;
 }
 
-.copy img {
-    position: absolute;
-    width: 36%;
-    margin-top: 35px;
-    height: auto;
-    right: 20px;
-    opacity: 0.4;
-}
-
 .myForm {
-    height: 100%;
-    width: 30%;
+    /* height: calc(100% - 50px); */
+    margin-top: 20px;
+    width: 29%;
     float: left;
-    /* margin-left: 10px; */
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
     padding: 20px 10px;
+    min-height: 600px; /* https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c */
 }
 
 .myForm h1 {
@@ -106,23 +102,8 @@ header {
 .myForm p {
     color: rgb(216, 208, 208);
     text-align: center;
-    /* margin-top: 15px; */
     font-family: "Fira Sans";
 }
-
-/* .myForm .line {
-    border: 1px solid white;
-    width: 85%;
-    margin: 0 auto;
-    margin-top: 25px;
-} */
-
-/* .myForm .line2 {
-    border: 1px solid white;
-    width: 55%;
-    margin: 0 auto;
-    margin-top: 25px;
-} */
 
 dialog {
     font-family: "Fira Sans";
@@ -150,8 +131,6 @@ form {
 input {
     /* position: relative; */
     display: block;
-    /* bottom: 10px; */
-    /* width: 100%; */
     margin-bottom: 8px;
     border: 1px solid #999;
     padding: 8px; 
@@ -171,7 +150,6 @@ input[type=text] {
 
 input[type=submit] {
     width: 100%;
-    /* padding: 16px; */
     cursor: pointer;
     border: 0;
     font-size: 24px;
@@ -179,18 +157,14 @@ input[type=submit] {
     background-color: green;
 }
 
-@media only screen and (max-width: 768px) {
-    .container {
-        display: block;
-        padding: 0 auto;
-    }
+@media screen and (max-width: 800px) {
     .copy {
-        display: block;
+        /* display: block; */
         width: 100%;
     }
     .myForm {
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-top: 10px;
     }
 }
