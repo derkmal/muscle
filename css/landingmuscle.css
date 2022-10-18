@@ -10,7 +10,6 @@ html, body {
     background-color: lightgrey;
     /* position: relative; */
     font-family: 'Fjalla One', sans-serif;  
-    flex-direction: column;
 }
 
 .clear {
@@ -36,16 +35,23 @@ header {
 .copy {
     position: relative;
     margin-top: 20px;
-    margin-left: 1%;
+    /* margin-left: 1%; */
+    width: 69%;
+    /* min-height: 575px; https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c */
+    padding: 20px;
+    float: left;
+    background-color: rgb(255,255,255);
+    height: 100%;
+    min-height: 575px;
+}
+
+.copy .ghostImage {
+    position: relative;
     background-image: url(../images/Muscle-1.png);
     background-size: 41%;
     background-repeat: no-repeat;
     background-position: calc(100% - 20px);
-    width: 69%;
-    min-height: 600px; /* https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c */
-    padding: 20px;
-    float: left;
-    background-color: rgb(255,255,255);
+    
 }
 
 .copy .text {
@@ -62,33 +68,36 @@ header {
 .copy .text h3 {
     font-size: 23px;
     font-weight: normal;
-    color: #999;
+    color: rgb(171, 166, 166);
     width: 85%;
     margin-top: 16px;
     font-family: "Fira Sans";
 }
 
 .copy .text ul {
-    font-size: 16px;
-    color: #999;
+    color: rgb(132, 130, 130);
     width: 85%;
     margin-top: 40px;
 }
 
 .copy .text ul li {
-    margin-bottom: 10px;
-    font-family: "Fira Sans";
-    list-style: none;
+    margin-bottom: 16px;
+    font-family: "Fira Sans";   
+    font-size: 19px;
+    /* list-style: none; */
+    list-style-position: inside;
 }
 
 .myForm {
     /* height: calc(100% - 50px); */
     margin-top: 20px;
     width: 29%;
-    float: left;
+    float: right;
     background-color: rgb(194, 108, 38);  /* (134, 179, 50) */
-    padding: 20px 10px;
-    min-height: 600px; /* https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c */
+    padding: 10px 10px;
+    /* min-height: 575px; https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c  */
+    height: 100%;
+    min-height: 575px;    
 }
 
 .myForm h1 {
@@ -100,13 +109,15 @@ header {
 }
 
 .myForm p {
-    color: rgb(216, 208, 208);
+    color: rgb(227, 220, 220);
     text-align: center;
     font-family: "Fira Sans";
+    font-size: 16px;
 }
 
 dialog {
     font-family: "Fira Sans";
+    font-size: 16px;
     position: relative;
     margin: 0 auto;
     margin-top: 24px;
@@ -161,10 +172,24 @@ input[type=submit] {
     .copy {
         /* display: block; */
         width: 100%;
+        background-image: none;
+    }
+    .copy .text {
+        width: 100%;
+        text-align: center;
+    }
+    .copy .text h3 {
+        width: 100%;
+    }
+    .copy .text ul {
+        width: 100%;
+    }
+    .copy .text ul li {
+        font-size: 16px;
     }
     .myForm {
+        /* display: block; */
         width: 100%;
-        /* margin: 0 auto; */
         margin-top: 10px;
     }
 }
