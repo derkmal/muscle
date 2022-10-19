@@ -38,20 +38,15 @@ header {
     /* margin-left: 1%; */
     width: 69%;
     /* min-height: 575px; https://stackoverflow.com/questions/147528/how-do-i-force-a-div-block-to-extend-to-the-bottom-of-a-page-even-if-it-has-no-c */
+    background-image: url(../images/Muscle-1.png);
+    background-size: 41%;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px);
     padding: 20px;
     float: left;
     background-color: rgb(255,255,255);
     height: 100%;
     min-height: 575px;
-}
-
-.copy .ghostImage {
-    position: relative;
-    background-image: url(../images/Muscle-1.png);
-    background-size: 41%;
-    background-repeat: no-repeat;
-    background-position: calc(100% - 20px);
-    
 }
 
 .copy .text {
@@ -71,13 +66,14 @@ header {
     color: rgb(171, 166, 166);
     width: 85%;
     margin-top: 16px;
+    margin-bottom: 16px;
     font-family: "Fira Sans";
 }
 
 .copy .text ul {
     color: rgb(132, 130, 130);
     width: 85%;
-    margin-top: 40px;
+    margin-top: 16px;
 }
 
 .copy .text ul li {
@@ -170,7 +166,6 @@ input[type=submit] {
 
 @media screen and (max-width: 800px) {
     .copy {
-        /* display: block; */
         width: 100%;
         background-image: none;
     }
@@ -187,10 +182,19 @@ input[type=submit] {
     .copy .text ul li {
         font-size: 16px;
     }
+    .ghostImage img {
+        width: 30%;
+    }
     .myForm {
         /* display: block; */
         width: 100%;
         margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .ghostImage img {
+        display: none;
     }
 }
 
