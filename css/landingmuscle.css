@@ -55,7 +55,7 @@ header {
 }
 
 .copy .text h1 {
-    color: black;
+    color: #2e1a0a;
     font-size: 32px;
     font-family: 'Roboto Slab';
 }
@@ -63,23 +63,23 @@ header {
 .copy .text h3 {
     font-size: 23px;
     font-weight: normal;
-    color: rgb(171, 166, 166);
+    color: #74685f;  /* rgb(171, 166, 166) */
     width: 85%;
     margin-top: 16px;
     font-family: "Fira Sans";
 }
 
 .copy .text ul {
-    color: rgb(132, 130, 130);
+    color: #46301f; /* rgb(132, 130, 130) */
     width: 85%;
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
 .copy .text ul li {
-    margin-bottom: 16px;
+    margin-bottom: 28px;
     font-family: "Fira Sans";   
     font-size: 19px;
-    /* list-style: none; */
+    list-style: none;
     list-style-position: inside;
 }
 
